@@ -1,0 +1,162 @@
+{
+  "project_info": {
+    "project_number": "105583620603",
+    "project_id": "motorbikerentalapp-3b6ad",
+    "storage_bucket": "motorbikerentalapp-3b6ad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105583620603:android:877a6cd1145f2cf2d95b5e",
+        "android_client_info": {
+          "package_name": "com.example.motorbike_rental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105583620603-q46tu05ug90qjv5cp2hr1d76jqpkhi1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUGDxBY15eBJewaRWKzlwYu8RpXGS9kNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105583620603-q46tu05ug90qjv5cp2hr1d76jqpkhi1s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105583620603-97b9q42ghatndtbdjrbfjl5o47v07too.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.motorbikeRental"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105583620603:android:e448a54fb66de7a8d95b5e",
+        "android_client_info": {
+          "package_name": "com.example.rentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105583620603-6mq89brr04mi4pi185fntud9rn4dtdk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rentapp",
+            "certificate_hash": "94928722f6bdc331b41108b03a6e9f832c26034d"
+          }
+        },
+        {
+          "client_id": "105583620603-q46tu05ug90qjv5cp2hr1d76jqpkhi1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUGDxBY15eBJewaRWKzlwYu8RpXGS9kNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105583620603-q46tu05ug90qjv5cp2hr1d76jqpkhi1s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105583620603-97b9q42ghatndtbdjrbfjl5o47v07too.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.motorbikeRental"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105583620603:android:1909c5569b07d0dcd95b5e",
+        "android_client_info": {
+          "package_name": "com.example.vimoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105583620603-q46tu05ug90qjv5cp2hr1d76jqpkhi1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUGDxBY15eBJewaRWKzlwYu8RpXGS9kNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105583620603-q46tu05ug90qjv5cp2hr1d76jqpkhi1s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105583620603-97b9q42ghatndtbdjrbfjl5o47v07too.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.motorbikeRental"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105583620603:android:fe947093cc2885c6d95b5e",
+        "android_client_info": {
+          "package_name": "com.example.vimoto_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105583620603-q46tu05ug90qjv5cp2hr1d76jqpkhi1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUGDxBY15eBJewaRWKzlwYu8RpXGS9kNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105583620603-q46tu05ug90qjv5cp2hr1d76jqpkhi1s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105583620603-97b9q42ghatndtbdjrbfjl5o47v07too.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.motorbikeRental"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

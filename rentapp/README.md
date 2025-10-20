@@ -1,4 +1,4 @@
-# rentapp
+# vimoto
 
 A new Flutter project.
 
