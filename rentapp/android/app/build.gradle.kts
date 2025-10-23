@@ -31,6 +31,9 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+
+        // <<< THÊM DÒNG NÀY ĐỂ TRÁNH LỖI VƯỢT QUÁ GIỚI HẠN METHOD
+        multiDexEnabled = true
     }
 
     buildTypes {

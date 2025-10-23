@@ -1,17 +1,40 @@
 class Moto {
-  final String model;           // Kiểu xe (ví dụ: Vespa Justin Bieber, Honda CBR)
-  final double fuelCapacity;    // Dung tích bình nhiên liệu (lít)
-  final double distance;        // Quãng đường đã đi (km)
-  final double pricePerHour;    // Giá thuê mỗi giờ (USD hoặc VND)
+  final String id;
+  final String model;
+  final double fuelCapacity;
+  final double distance;
+  final double pricePerHour;
+  final String status;
 
-  Moto({required this.model, required this.fuelCapacity, required this.distance, required this.pricePerHour});
+  Moto({
+    required this.id,
+    required this.model,
+    required this.fuelCapacity,
+    required this.distance,
+    required this.pricePerHour,
+    required this.status,
+  });
 
-  factory Moto.fromMap(Map<String, dynamic> map) {
+  // Factory để convert từ Map (Firebase data)
+  factory Moto.fromMap(String id, Map<String, dynamic> data) {
     return Moto(
-        model: map['model'],
-        distance: map['distance'],
-        fuelCapacity: map['fuelCapacity'],
-        pricePerHour: map['pricePerHour']
+      id: id,
+      model: data['model'] ?? '',
+      fuelCapacity: (data['fuelCapacity'] as num?)?.toDouble() ?? 0.0,
+      distance: (data['distance'] as num?)?.toDouble() ?? 0.0,
+      pricePerHour: (data['pricePerHour'] as num?)?.toDouble() ?? 0.0,
+      status: data['status'] ?? 'available',
     );
+  }
+
+  // Method để convert thành Map (để update Firebase)
+  Map<String, dynamic> toMap() {
+    return {
+      'model': model,
+      'fuelCapacity': fuelCapacity,
+      'distance': distance,
+      'pricePerHour': pricePerHour,
+      'status': status,
+    };
   }
 }

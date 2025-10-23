@@ -1,0 +1,74 @@
+{
+  "motos": {
+    "1": {
+      "model": "Honda Vision",
+      "fuelCapacity": 5.5,
+      "distance": 10.0,
+      "pricePerHour": 8.0,
+      "status": "available"
+    },
+    "2": {
+      "model": "Honda PCX 160",
+      "fuelCapacity": 8.0,
+      "distance": 15.0,
+      "pricePerHour": 10.0,
+      "status": "available"
+    },
+    "3": {
+      "model": "Yamaha Aerox 155",
+      "fuelCapacity": 5.5,
+      "distance": 20.0,
+      "pricePerHour": 12.0,
+      "status": "available"
+    },
+    "4": {
+      "model": "Yamaha MT-03",
+      "fuelCapacity": 14.0,
+      "distance": 25.0,
+      "pricePerHour": 15.0,
+      "status": "available"
+    },
+    "5": {
+      "model": "Vespa Sprint",
+      "fuelCapacity": 7.0,
+      "distance": 12.0,
+      "pricePerHour": 10.0,
+      "status": "available"
+    },
+    "6": {
+      "model": "Vespa GTS 300",
+      "fuelCapacity": 9.0,
+      "distance": 18.0,
+      "pricePerHour": 13.0,
+      "status": "available"
+    },
+    "7": {
+      "model": "Suzuki Gixxer",
+      "fuelCapacity": 12.0,
+      "distance": 30.0,
+      "pricePerHour": 14.0,
+      "status": "available"
+    },
+    "8": {
+      "model": "Suzuki Hayabusa",
+      "fuelCapacity": 21.0,
+      "distance": 40.0,
+      "pricePerHour": 20.0,
+      "status": "available"
+    },
+    "9": {
+      "model": "Kawasaki Ninja 250",
+      "fuelCapacity": 17.0,
+      "distance": 25.0,
+      "pricePerHour": 18.0,
+      "status": "available"
+    },
+    "10": {
+      "model": "Kawasaki Z900",
+      "fuelCapacity": 17.0,
+      "distance": 35.0,
+      "pricePerHour": 22.0,
+      "status": "available"
+    }
+  }
+}
