@@ -150,7 +150,7 @@ class MapsDetailsPage extends StatelessWidget {
           Positioned(
             top: 50,
             right: 20,
-            child: Image.asset('assets/white_car.png'),
+            child: Image.asset('assets/moto.png'),
           ),
         ],
       ),
